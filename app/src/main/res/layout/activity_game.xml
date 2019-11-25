@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/rLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button3"
+        android:text="Гостиная"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:text="Пролог"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Спальня"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="На улицу"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button8"
+
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Поехать к вокзалу"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="На вокзале"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button111"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button11"
+
+        android:text="Пойти за шоколадом"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Пойти на перрон"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Конец пролога"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/buttonf16"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="1 Акт"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf17"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Прогуляться"
+        android:visibility="gone" />
+
+
+    <Button
+        android:id="@+id/buttonf18"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonf17"
+        android:text="Почитать"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf19"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Пойти в вагон-ресторан"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf192"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonf19"
+        android:text="Не идти"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf191"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Потом"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf181"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Разгадать"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf20"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Помочь"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf21"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonf20"
+        android:layout_alignParentBottom="true"
+
+        android:text="В вагон ресторан"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonf22"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Конец 1 Акта"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/buttonc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonc3"
+        android:text="Он соглашается"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonc12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="gone"
+        android:text="Акт 2" />
+
+    <Button
+        android:id="@+id/buttonc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Он молчит"
+        android:layout_alignParentBottom="true"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/buttonc5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Button"
+        android:text="Пойти на завтрак"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/buttonc8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="В купе Рудольфа"
+        android:layout_alignParentBottom="true"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="gone"
+        />
+
+    <Button
+        android:id="@+id/buttonc21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="На ужине"
+        android:layout_alignParentBottom="true"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/buttonc9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentBottom="true"
+
+        android:text="Конец 2 Акта"
+        android:visibility="gone" />
+    <Button
+        android:id="@+id/buttonff15"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="3 Акт"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/buttonff16"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="На перроне" />
+
+
+    <Button
+        android:id="@+id/buttonff17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentBottom="true"
+        android:text="В отель"
+        android:visibility="gone" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView3"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a2"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/b"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d3"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d4"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf111"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ba"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf112"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bb"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf113"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf114"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf151"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v2"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf15"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v11"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf125"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v112"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf16"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/v12"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf116"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bcb"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf115"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bbb"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewf8"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewc"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ca"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewc2"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cb"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/textViewc4"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/c4"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/textViewc7"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/с6"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewc8"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/с7"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewc9"
+                style="@style/alfa50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/с8"
+                android:visibility="gone" />
+            <TextView
+                android:id="@+id/textViewff10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/alfa50"
+                android:text="@string/d1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewff112"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/alfa50"
+                android:text="@string/b2"
+                android:visibility="gone" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
